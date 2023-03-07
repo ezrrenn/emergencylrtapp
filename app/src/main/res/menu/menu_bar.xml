@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeP"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home"/>
+
+        <item
+            android:id="@+id/reportP"
+            android:icon="@drawable/ic_baseline_report_24"
+            android:title="Report"/>
+
+        <item
+            android:id="@+id/commentP"
+            android:icon="@drawable/ic_baseline_comment_24"
+            android:title="Explore"/>
+
+        <item
+            android:id="@+id/profileP"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Profile"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Communicate">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/notiP"
+                        android:icon="@drawable/ic_baseline_notifications_24"
+                        android:title="Notification"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Authentication">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/logoutP"
+                        android:icon="@drawable/ic_baseline_logout_24"
+                        android:title="Logout"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+
+</menu>
